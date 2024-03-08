@@ -19,9 +19,6 @@ public class AtmServiceImpl implements AtmService {
 
     private UserAccountRepository userAccountRepository;
     private ATMRepository atmRepository;
-    /*
-    moayad faraj ahmad
-     */
 
     @Autowired
     public AtmServiceImpl(UserAccountRepository userAccountRepository, ATMRepository atmRepository) {
